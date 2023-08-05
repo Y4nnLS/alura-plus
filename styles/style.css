@@ -1,0 +1,20 @@
+:root {
+    --branco-principal: #ffffff;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #167bf7;
+    --background: #00030C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--branco-principal);
+}
+
+.cabecalho__obs {
+    color: var(--cinza-secundario);
+}
